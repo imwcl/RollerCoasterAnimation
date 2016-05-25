@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97267B231CF6024F0036A188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97267B221CF6024F0036A188 /* AppDelegate.swift */; };
+		97267B251CF6024F0036A188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97267B241CF6024F0036A188 /* ViewController.swift */; };
+		97267B281CF6024F0036A188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97267B261CF6024F0036A188 /* Main.storyboard */; };
+		97267B2A1CF6024F0036A188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97267B291CF6024F0036A188 /* Assets.xcassets */; };
+		97267B2D1CF6024F0036A188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97267B2B1CF6024F0036A188 /* LaunchScreen.storyboard */; };
+		97267B381CF6024F0036A188 /* RollerCoasterAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97267B371CF6024F0036A188 /* RollerCoasterAnimationTests.swift */; };
+		97267B431CF6024F0036A188 /* RollerCoasterAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97267B421CF6024F0036A188 /* RollerCoasterAnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97267B341CF6024F0036A188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97267B171CF6024F0036A188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97267B1E1CF6024F0036A188;
+			remoteInfo = RollerCoasterAnimation;
+		};
+		97267B3F1CF6024F0036A188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97267B171CF6024F0036A188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97267B1E1CF6024F0036A188;
+			remoteInfo = RollerCoasterAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97267B1F1CF6024F0036A188 /* RollerCoasterAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollerCoasterAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97267B221CF6024F0036A188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97267B241CF6024F0036A188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97267B271CF6024F0036A188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97267B291CF6024F0036A188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97267B2C1CF6024F0036A188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97267B2E1CF6024F0036A188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97267B331CF6024F0036A188 /* RollerCoasterAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollerCoasterAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97267B371CF6024F0036A188 /* RollerCoasterAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollerCoasterAnimationTests.swift; sourceTree = "<group>"; };
+		97267B391CF6024F0036A188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97267B3E1CF6024F0036A188 /* RollerCoasterAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollerCoasterAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97267B421CF6024F0036A188 /* RollerCoasterAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollerCoasterAnimationUITests.swift; sourceTree = "<group>"; };
+		97267B441CF6024F0036A188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97267B1C1CF6024F0036A188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97267B301CF6024F0036A188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97267B3B1CF6024F0036A188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97267B161CF6024F0036A188 = {
+			isa = PBXGroup;
+			children = (
+				97267B211CF6024F0036A188 /* RollerCoasterAnimation */,
+				97267B361CF6024F0036A188 /* RollerCoasterAnimationTests */,
+				97267B411CF6024F0036A188 /* RollerCoasterAnimationUITests */,
+				97267B201CF6024F0036A188 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97267B201CF6024F0036A188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97267B1F1CF6024F0036A188 /* RollerCoasterAnimation.app */,
+				97267B331CF6024F0036A188 /* RollerCoasterAnimationTests.xctest */,
+				97267B3E1CF6024F0036A188 /* RollerCoasterAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97267B211CF6024F0036A188 /* RollerCoasterAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				97267B221CF6024F0036A188 /* AppDelegate.swift */,
+				97267B241CF6024F0036A188 /* ViewController.swift */,
+				97267B261CF6024F0036A188 /* Main.storyboard */,
+				97267B291CF6024F0036A188 /* Assets.xcassets */,
+				97267B2B1CF6024F0036A188 /* LaunchScreen.storyboard */,
+				97267B2E1CF6024F0036A188 /* Info.plist */,
+			);
+			path = RollerCoasterAnimation;
+			sourceTree = "<group>";
+		};
+		97267B361CF6024F0036A188 /* RollerCoasterAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				97267B371CF6024F0036A188 /* RollerCoasterAnimationTests.swift */,
+				97267B391CF6024F0036A188 /* Info.plist */,
+			);
+			path = RollerCoasterAnimationTests;
+			sourceTree = "<group>";
+		};
+		97267B411CF6024F0036A188 /* RollerCoasterAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97267B421CF6024F0036A188 /* RollerCoasterAnimationUITests.swift */,
+				97267B441CF6024F0036A188 /* Info.plist */,
+			);
+			path = RollerCoasterAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97267B1E1CF6024F0036A188 /* RollerCoasterAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97267B471CF6024F0036A188 /* Build configuration list for PBXNativeTarget "RollerCoasterAnimation" */;
+			buildPhases = (
+				97267B1B1CF6024F0036A188 /* Sources */,
+				97267B1C1CF6024F0036A188 /* Frameworks */,
+				97267B1D1CF6024F0036A188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollerCoasterAnimation;
+			productName = RollerCoasterAnimation;
+			productReference = 97267B1F1CF6024F0036A188 /* RollerCoasterAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97267B321CF6024F0036A188 /* RollerCoasterAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97267B4A1CF6024F0036A188 /* Build configuration list for PBXNativeTarget "RollerCoasterAnimationTests" */;
+			buildPhases = (
+				97267B2F1CF6024F0036A188 /* Sources */,
+				97267B301CF6024F0036A188 /* Frameworks */,
+				97267B311CF6024F0036A188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97267B351CF6024F0036A188 /* PBXTargetDependency */,
+			);
+			name = RollerCoasterAnimationTests;
+			productName = RollerCoasterAnimationTests;
+			productReference = 97267B331CF6024F0036A188 /* RollerCoasterAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97267B3D1CF6024F0036A188 /* RollerCoasterAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97267B4D1CF6024F0036A188 /* Build configuration list for PBXNativeTarget "RollerCoasterAnimationUITests" */;
+			buildPhases = (
+				97267B3A1CF6024F0036A188 /* Sources */,
+				97267B3B1CF6024F0036A188 /* Frameworks */,
+				97267B3C1CF6024F0036A188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97267B401CF6024F0036A188 /* PBXTargetDependency */,
+			);
+			name = RollerCoasterAnimationUITests;
+			productName = RollerCoasterAnimationUITests;
+			productReference = 97267B3E1CF6024F0036A188 /* RollerCoasterAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97267B171CF6024F0036A188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王崇磊";
+				TargetAttributes = {
+					97267B1E1CF6024F0036A188 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					97267B321CF6024F0036A188 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 97267B1E1CF6024F0036A188;
+					};
+					97267B3D1CF6024F0036A188 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 97267B1E1CF6024F0036A188;
+					};
+				};
+			};
+			buildConfigurationList = 97267B1A1CF6024F0036A188 /* Build configuration list for PBXProject "RollerCoasterAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97267B161CF6024F0036A188;
+			productRefGroup = 97267B201CF6024F0036A188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97267B1E1CF6024F0036A188 /* RollerCoasterAnimation */,
+				97267B321CF6024F0036A188 /* RollerCoasterAnimationTests */,
+				97267B3D1CF6024F0036A188 /* RollerCoasterAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97267B1D1CF6024F0036A188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97267B2D1CF6024F0036A188 /* LaunchScreen.storyboard in Resources */,
+				97267B2A1CF6024F0036A188 /* Assets.xcassets in Resources */,
+				97267B281CF6024F0036A188 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97267B311CF6024F0036A188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97267B3C1CF6024F0036A188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97267B1B1CF6024F0036A188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97267B251CF6024F0036A188 /* ViewController.swift in Sources */,
+				97267B231CF6024F0036A188 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97267B2F1CF6024F0036A188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97267B381CF6024F0036A188 /* RollerCoasterAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97267B3A1CF6024F0036A188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97267B431CF6024F0036A188 /* RollerCoasterAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97267B351CF6024F0036A188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97267B1E1CF6024F0036A188 /* RollerCoasterAnimation */;
+			targetProxy = 97267B341CF6024F0036A188 /* PBXContainerItemProxy */;
+		};
+		97267B401CF6024F0036A188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97267B1E1CF6024F0036A188 /* RollerCoasterAnimation */;
+			targetProxy = 97267B3F1CF6024F0036A188 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97267B261CF6024F0036A188 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97267B271CF6024F0036A188 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97267B2B1CF6024F0036A188 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97267B2C1CF6024F0036A188 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97267B451CF6024F0036A188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97267B461CF6024F0036A188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97267B481CF6024F0036A188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RollerCoasterAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97267B491CF6024F0036A188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RollerCoasterAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97267B4B1CF6024F0036A188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RollerCoasterAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollerCoasterAnimation.app/RollerCoasterAnimation";
+			};
+			name = Debug;
+		};
+		97267B4C1CF6024F0036A188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RollerCoasterAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollerCoasterAnimation.app/RollerCoasterAnimation";
+			};
+			name = Release;
+		};
+		97267B4E1CF6024F0036A188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RollerCoasterAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RollerCoasterAnimation;
+			};
+			name = Debug;
+		};
+		97267B4F1CF6024F0036A188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RollerCoasterAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RollerCoasterAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97267B1A1CF6024F0036A188 /* Build configuration list for PBXProject "RollerCoasterAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97267B451CF6024F0036A188 /* Debug */,
+				97267B461CF6024F0036A188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97267B471CF6024F0036A188 /* Build configuration list for PBXNativeTarget "RollerCoasterAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97267B481CF6024F0036A188 /* Debug */,
+				97267B491CF6024F0036A188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97267B4A1CF6024F0036A188 /* Build configuration list for PBXNativeTarget "RollerCoasterAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97267B4B1CF6024F0036A188 /* Debug */,
+				97267B4C1CF6024F0036A188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97267B4D1CF6024F0036A188 /* Build configuration list for PBXNativeTarget "RollerCoasterAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97267B4E1CF6024F0036A188 /* Debug */,
+				97267B4F1CF6024F0036A188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97267B171CF6024F0036A188 /* Project object */;
+}
