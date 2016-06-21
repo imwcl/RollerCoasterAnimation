@@ -11,9 +11,7 @@
 		97267B251CF6024F0036A188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97267B241CF6024F0036A188 /* ViewController.swift */; };
 		97267B281CF6024F0036A188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97267B261CF6024F0036A188 /* Main.storyboard */; };
 		97267B2A1CF6024F0036A188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97267B291CF6024F0036A188 /* Assets.xcassets */; };
-		97267B2D1CF6024F0036A188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97267B2B1CF6024F0036A188 /* LaunchScreen.storyboard */; };
-		97267B381CF6024F0036A188 /* RollerCoasterAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97267B371CF6024F0036A188 /* RollerCoasterAnimationTests.swift */; };
-		97267B431CF6024F0036A188 /* RollerCoasterAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97267B421CF6024F0036A188 /* RollerCoasterAnimationUITests.swift */; };
+		97267B641CF6EEC70036A188 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97267B631CF6EEC70036A188 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +37,10 @@
 		97267B241CF6024F0036A188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97267B271CF6024F0036A188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97267B291CF6024F0036A188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		97267B2C1CF6024F0036A188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97267B2E1CF6024F0036A188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97267B331CF6024F0036A188 /* RollerCoasterAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollerCoasterAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		97267B371CF6024F0036A188 /* RollerCoasterAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollerCoasterAnimationTests.swift; sourceTree = "<group>"; };
-		97267B391CF6024F0036A188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97267B3E1CF6024F0036A188 /* RollerCoasterAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollerCoasterAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		97267B421CF6024F0036A188 /* RollerCoasterAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollerCoasterAnimationUITests.swift; sourceTree = "<group>"; };
-		97267B441CF6024F0036A188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97267B631CF6EEC70036A188 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				97267B211CF6024F0036A188 /* RollerCoasterAnimation */,
-				97267B361CF6024F0036A188 /* RollerCoasterAnimationTests */,
-				97267B411CF6024F0036A188 /* RollerCoasterAnimationUITests */,
 				97267B201CF6024F0036A188 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,28 +93,10 @@
 				97267B241CF6024F0036A188 /* ViewController.swift */,
 				97267B261CF6024F0036A188 /* Main.storyboard */,
 				97267B291CF6024F0036A188 /* Assets.xcassets */,
-				97267B2B1CF6024F0036A188 /* LaunchScreen.storyboard */,
 				97267B2E1CF6024F0036A188 /* Info.plist */,
+				97267B631CF6EEC70036A188 /* Launch Screen.storyboard */,
 			);
 			path = RollerCoasterAnimation;
-			sourceTree = "<group>";
-		};
-		97267B361CF6024F0036A188 /* RollerCoasterAnimationTests */ = {
-			isa = PBXGroup;
-			children = (
-				97267B371CF6024F0036A188 /* RollerCoasterAnimationTests.swift */,
-				97267B391CF6024F0036A188 /* Info.plist */,
-			);
-			path = RollerCoasterAnimationTests;
-			sourceTree = "<group>";
-		};
-		97267B411CF6024F0036A188 /* RollerCoasterAnimationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				97267B421CF6024F0036A188 /* RollerCoasterAnimationUITests.swift */,
-				97267B441CF6024F0036A188 /* Info.plist */,
-			);
-			path = RollerCoasterAnimationUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,13 +167,17 @@
 				TargetAttributes = {
 					97267B1E1CF6024F0036A188 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 464B6RYLBK;
+						LastSwiftMigration = 0800;
 					};
 					97267B321CF6024F0036A188 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 97267B1E1CF6024F0036A188;
 					};
 					97267B3D1CF6024F0036A188 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 97267B1E1CF6024F0036A188;
 					};
 				};
@@ -229,8 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97267B2D1CF6024F0036A188 /* LaunchScreen.storyboard in Resources */,
 				97267B2A1CF6024F0036A188 /* Assets.xcassets in Resources */,
+				97267B641CF6EEC70036A188 /* Launch Screen.storyboard in Resources */,
 				97267B281CF6024F0036A188 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97267B381CF6024F0036A188 /* RollerCoasterAnimationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97267B431CF6024F0036A188 /* RollerCoasterAnimationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +275,6 @@
 				97267B271CF6024F0036A188 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		97267B2B1CF6024F0036A188 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97267B2C1CF6024F0036A188 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,10 +369,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RollerCoasterAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -412,10 +384,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RollerCoasterAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +403,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollerCoasterAnimation.app/RollerCoasterAnimation";
 			};
 			name = Debug;
@@ -439,6 +416,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollerCoasterAnimation.app/RollerCoasterAnimation";
 			};
 			name = Release;
@@ -450,6 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RollerCoasterAnimation;
 			};
 			name = Debug;
@@ -461,6 +440,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WCL.RollerCoasterAnimationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RollerCoasterAnimation;
 			};
 			name = Release;
@@ -484,6 +464,7 @@
 				97267B491CF6024F0036A188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97267B4A1CF6024F0036A188 /* Build configuration list for PBXNativeTarget "RollerCoasterAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +473,7 @@
 				97267B4C1CF6024F0036A188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97267B4D1CF6024F0036A188 /* Build configuration list for PBXNativeTarget "RollerCoasterAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +482,7 @@
 				97267B4F1CF6024F0036A188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
