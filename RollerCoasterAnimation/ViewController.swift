@@ -5,6 +5,7 @@
 //  Created by 王崇磊 on 16/5/25.
 //  Copyright © 2016年 王崇磊. All rights reserved.
 //
+// 思路详解可以去我的CSDN博客地址观看http://blog.csdn.net/wang631106979/article/details/51737456
 
 import UIKit
 
@@ -266,6 +267,7 @@ class ViewController: UIViewController {
         carLayer.frame = CGRect(x: 0, y: 0, width: 17, height: 11)
         carLayer.contents = UIImage.init(named: "otherCar")!.CGImage
         
+        //绘制路径
         let path:UIBezierPath = UIBezierPath()
         path.lineCapStyle = .Round
         path.lineJoinStyle = .Round
@@ -276,13 +278,19 @@ class ViewController: UIViewController {
         path.addCurveToPoint(CGPoint(x: 0, y: size.height - 107), controlPoint1: CGPoint(x: size.width/1.8 - 60, y: size.height - 67), controlPoint2: CGPoint(x: 150, y: size.height/2.3-7))
         path.addLineToPoint(CGPoint(x: -100, y: size.height + 7))
         
+        //关键帧动画作用于position
         let animation:CAKeyframeAnimation = CAKeyframeAnimation.init(keyPath: "position")
         animation.path = path.CGPath
+        //动画节奏为线性动画
         animation.timingFunction = CAMediaTimingFunction.init(name: kCAMediaTimingFunctionLinear)
+        //动画时间
         animation.duration = 6
+        //动画重复次数
         animation.repeatCount = MAXFLOAT
+        //动画是否逆转
         animation.autoreverses = false
         animation.calculationMode = kCAAnimationCubicPaced
+        //动画角度是否调整
         animation.rotationMode = kCAAnimationRotateAuto
         view.layer.addSublayer(carLayer)
         carLayer.addAnimation(animation, forKey: "carAnimation")
