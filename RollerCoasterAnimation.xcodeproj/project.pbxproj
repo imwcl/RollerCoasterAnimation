@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9704F1DE1E73FD5D00604DFC /* RollerCoasterLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9704F1DD1E73FD5D00604DFC /* RollerCoasterLayer.swift */; };
 		97267B231CF6024F0036A188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97267B221CF6024F0036A188 /* AppDelegate.swift */; };
 		97267B251CF6024F0036A188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97267B241CF6024F0036A188 /* ViewController.swift */; };
 		97267B281CF6024F0036A188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97267B261CF6024F0036A188 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9704F1DD1E73FD5D00604DFC /* RollerCoasterLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollerCoasterLayer.swift; sourceTree = "<group>"; };
 		97267B1F1CF6024F0036A188 /* RollerCoasterAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollerCoasterAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97267B221CF6024F0036A188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97267B241CF6024F0036A188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				97267B221CF6024F0036A188 /* AppDelegate.swift */,
 				97267B241CF6024F0036A188 /* ViewController.swift */,
+				9704F1DD1E73FD5D00604DFC /* RollerCoasterLayer.swift */,
 				97267B261CF6024F0036A188 /* Main.storyboard */,
 				97267B291CF6024F0036A188 /* Assets.xcassets */,
 				97267B2E1CF6024F0036A188 /* Info.plist */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97267B251CF6024F0036A188 /* ViewController.swift in Sources */,
+				9704F1DE1E73FD5D00604DFC /* RollerCoasterLayer.swift in Sources */,
 				97267B231CF6024F0036A188 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
