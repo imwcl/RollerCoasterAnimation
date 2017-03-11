@@ -12,10 +12,6 @@ import UIKit
 @IBDesignable
 
 class ViewController: UIViewController {
-    
-    var groundLayer:CALayer?
-    var yellowPath:CAShapeLayer?
-    var greenPath:CAShapeLayer?
 
     override func viewDidLoad() {
         super.viewDidLoad()
